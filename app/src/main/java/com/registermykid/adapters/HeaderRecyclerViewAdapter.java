@@ -7,7 +7,7 @@ import android.view.ViewGroup;
  * Created by Jaideep.Lakshminaray on 27-02-2017.
  */
 
-public abstract class HeaderRecyclerViewAdapter<T extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<T> {
+public abstract class  HeaderRecyclerViewAdapter<T extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<T> {
     public static final int TYPE_HEADER = Integer.MIN_VALUE;
     public static final int TYPE_FOOTER = Integer.MIN_VALUE + 1;
     public static final int TYPE_ADAPTEE_OFFSET = 2;
